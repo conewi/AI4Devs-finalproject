@@ -439,6 +439,7 @@ Deployment Environment Components
 
 ### **2.3. Descripción de alto nivel del proyecto y estructura de ficheros**
 
+```plaintext
 FinNatico/
 │
 ├── src/
@@ -548,7 +549,7 @@ FinNatico/
 ├── .gitignore
 ├── README.md
 └── FinNatico.sln                         # Solution file
-
+```
 
 ### **2.4. Infraestructura y despliegue**
 
@@ -678,7 +679,7 @@ FinNatico/
 Terraform Implementation
 
 Below is a detailed Terraform implementation to deploy the FinNatico infrastructure:
-
+```plaintext
 terraform/
 ├── environments/
 │   ├── dev/
@@ -720,7 +721,7 @@ terraform/
 │       └── outputs.tf
 ├── global.tf
 └── README.md
-
+```
 
 ### Deployment Process
 1. Initialize Terraform backend storage
